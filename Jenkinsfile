@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-login')
+        DOCKERHUB_CREDENTIALS = credentials('humeradoc')
         IMAGE_NAME = "humera/zomato_app"
         IMAGE_TAG = "v1"
     }
